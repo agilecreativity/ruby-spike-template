@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+ruby '2.0.0'
+
 group :development, :test do
   gem 'awesome_print'
   gem 'gem-ctags'
@@ -7,5 +9,4 @@ group :development, :test do
   gem 'pry'
   gem 'pry-debugger'
   gem 'pry-editline'
-  gem 'guard-rspec'
 end
